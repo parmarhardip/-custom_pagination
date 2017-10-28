@@ -166,8 +166,6 @@ var Pagination = {
 		Pagination.Start();
 	}
 };
- 
- 
 
 /* * * * * * * * * * * * * * * * *
  * Initialization
