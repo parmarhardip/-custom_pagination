@@ -1,0 +1,43 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="simple-pagination.js"></script>
+<style>
+ul.job-pagination li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px;
+margin-bottom: 10px;}
+ul.job-pagination li a {
+    background: #fff;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border-radius: 2px;
+}
+ul.job-pagination li a:hover {
+    background: #00bce1;
+    color: #fff !important;
+    border: 1px solid #00bce1;
+}
+ul.job-pagination li a.active {
+    outline: none;
+    background-color: #00bce1;
+    color: #fff !important;
+    border: 1px solid #00bce1;
+}
+
+	
+</style>
+<br><br>
+<ul class="tacp-pagination job-pagination" id="hr-pagination" data-size="50" data-step ="1" data-tag="li" data-tagClass="pages" data-nexttxt="demo"></ul>
